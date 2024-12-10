@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header, Footer } from "./components";
+import { Header, Footer, Hero } from "./components";
 
 
 const App = () => {
@@ -11,9 +11,8 @@ const App = () => {
         
         {/* Main content changes based on the route */}
         <main className="p-4">
-          <Routes>
-            {/* Add your routes here */}
-          </Routes>
+          
+          <Hero/>
         </main>
         
         {/* Footer stays constant */}
